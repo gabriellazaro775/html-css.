@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body{ background-color: rgb(212, 252, 252);
+font-family: 'Courier New', Courier, monospace;
+}
+
+h1{color:rgb(104, 150, 150); font-size: 2em;}
+
+h1#principal{ color: aliceblue; text-align: center; font-size:2.5em; background-color: rgb(73, 232, 253);}
+
+h2{color:rgb(62, 90, 90)}
+
+h2.basico{background-color: rgb(255, 224, 224); color: white;}
+h2.intermediario{background-color: rgb(253, 253, 116); color: white;}
+h2.avancado{background-color: rgb(250, 27, 27); color: white;}
