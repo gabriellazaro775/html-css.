@@ -1,0 +1,23 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
+table { width: 400px;
+height: 400px;
+border-collapse: collapse;
+font-weight: bold;
+}
+
+td {border: 1px solid black; 
+padding: 8px;
+text-align: center;
+vertical-align: middle;
+}
+
+.numero {text-align: right;
+}
+
+tr.linha1 {background-color: yellow;
+}
+
+tr.linha4 {background-color: lightgray;}
+
+td.c4 {color: red;}
