@@ -9,17 +9,17 @@
 
     body {font-family: Arial, Helvetica, sans-serif;
     }
-    td , th{border: 1px solid black;
-        width: 250px;
+    td ,th{border: 1px solid black;
         padding: 5px;
+        
     }
+   
     table {border-collapse: collapse;
+        width: 400px;
+       
     }
-    .numero {text-align: right;
-    }
-    .numero2 { color: red; 
-        font-weight: bold;
-        text-align: right;
+    .numero {text-align: right; 
+        width: 70px;
     }
     thead {background-color: yellow;
     }
@@ -31,15 +31,18 @@
         background-color: lightgray;
         padding: 5px;
      }
-     
+    
+
     </style>
 </head>
 <body>
     <table>
         <caption>Gastos pt</caption>
         <thead>
-             <th>Iten</th>
-             <th>Valor</th>
+             <tr>
+                 <th scope="col">Iten</th>
+                 <th scope="col">Valor</th>
+             </tr>
              
         </thead>
         
@@ -57,8 +60,8 @@
         </tbody>
 
         <tfoot>
-              <th>Total</th>
-              <td class="numero2">800,00</td>
+              <th scope="row">Total</th>
+              <td class="numero">800,00</td>
         </tfoot>
     </table>
 </body>
