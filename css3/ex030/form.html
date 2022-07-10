@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form {
+            background-color: black;
+            color: white;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        form label {
+            padding-right: 5px;
+            display: none;
+        }
+        form div {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        form input {
+            width: 250px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            padding: 2px;
+        }
+        form .entrar  input{
+            width: 258px;
+            padding: 5px;     
+        }
+        section .btn button {
+            width: 200px;
+            font-size: 1.1em;
+            padding: 5px;
+        }
+        form a {
+            text-decoration: none;
+            color: rgb(33, 33, 206);
+        }
+    </style>
+</head>
+<body>
+    <section class="formulario">
+        <form action="">
+            <h1>Entrar no site</h1>
+            <div>
+                <label for="ilogin">LOGIN</label> <input type="text" name="login" id="ilogin" placeholder="Login">
+            </div>
+            <div>
+                <label for="isenha">SENHA</label> <input type="text" name="senha" id="isenha" placeholder="Senha">
+            </div>
+            <div class="entrar">
+                    <input type="submit" value="ENTRAR" id="ientrar">
+            </div>
+            <p><a href="">Esqueci minha senha</a></p>
+            <div class="btn">
+                <button>Criar nova conta</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
